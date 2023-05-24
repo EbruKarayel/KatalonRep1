@@ -12,11 +12,21 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Admin'</initValue>
-      <name>username</name>
+      <name>username_valid</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'admin123'</initValue>
-      <name>password</name>
+      <initValue>'hUKwJTbofgPU9eVlw/CnDQ=='</initValue>
+      <name>password_valid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin'</initValue>
+      <name>username_invalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin123456'</initValue>
+      <name>password_invalid</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
