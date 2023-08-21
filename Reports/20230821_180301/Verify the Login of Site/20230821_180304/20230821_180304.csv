@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify the Login of Site,,,,2023-08-21 18:03:09,2023-08-21 18:03:14,"5,066s",FAILED
+,,,,,,,
+Test Cases/Verify the Login of Site-N1,,,login,2023-08-21 18:03:12,2023-08-21 18:03:13,"0,042s",FAILED
+"openBrowser("""")",,,,2023-08-21 18:03:12,2023-08-21 18:03:13,"0,031s",FAILED
+,,,,,,,
+Test Cases/Verify the Login of Site-N2,,,login,2023-08-21 18:03:13,2023-08-21 18:03:13,"0,077s",FAILED
+"openBrowser("""")",,,,2023-08-21 18:03:13,2023-08-21 18:03:13,"0,043s",FAILED
+,,,,,,,
+Test Cases/Verify the Login of Site-N3,,,login,2023-08-21 18:03:14,2023-08-21 18:03:14,"0,046s",FAILED
+"openBrowser("""")",,,,2023-08-21 18:03:14,2023-08-21 18:03:14,"0,039s",FAILED
+,,,,,,,
+Test Cases/Verify the Login of Site-P,,,login,2023-08-21 18:03:14,2023-08-21 18:03:14,"0,045s",FAILED
+"openBrowser("""")",,,,2023-08-21 18:03:14,2023-08-21 18:03:14,"0,036s",FAILED

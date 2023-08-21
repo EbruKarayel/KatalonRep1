@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify the Login of Site-N1</name>
+   <tag>login</tag>
+   <comment></comment>
+   <testCaseGuid>d83a3d4b-4cd5-4448-ae7e-89a6f934da6e</testCaseGuid>
+</TestCaseEntity>

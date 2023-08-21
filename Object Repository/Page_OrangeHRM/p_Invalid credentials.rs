@@ -6,12 +6,12 @@
    <elementGuidId>d18f3907-690b-4ef2-9df2-3b8925b7c5db</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Invalid credentials' or . = 'Invalid credentials')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//p[(text() = 'Invalid credentials' or . = 'Invalid credentials')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Invalid credentials' or . = 'Invalid credentials')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>26c1a35e-357c-4d91-ad4c-6a3b5fcd1542</webElementGuid>
+      <webElementGuid>01422642-da76-4558-8b1d-fe722f6663c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-text oxd-text--p oxd-alert-content-text</value>
-      <webElementGuid>7d7d37a9-96c2-41f8-870e-ae80f3293235</webElementGuid>
+      <webElementGuid>a6e7b73a-c0e0-42e9-bda3-cfbca9faeb74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Invalid credentials</value>
-      <webElementGuid>7dbf326a-00ab-4ab0-9583-b919effb2cb6</webElementGuid>
+      <webElementGuid>2699c5dc-cc75-4b91-b6b1-b58f0c7f2037</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;orangehrm-login-layout&quot;]/div[@class=&quot;orangehrm-login-layout-blob&quot;]/div[@class=&quot;orangehrm-login-container&quot;]/div[@class=&quot;orangehrm-login-slot-wrapper&quot;]/div[@class=&quot;orangehrm-login-slot&quot;]/div[@class=&quot;orangehrm-login-form&quot;]/div[@class=&quot;orangehrm-login-error&quot;]/div[@class=&quot;oxd-alert oxd-alert--error&quot;]/div[@class=&quot;oxd-alert-content oxd-alert-content--error&quot;]/p[@class=&quot;oxd-text oxd-text--p oxd-alert-content-text&quot;]</value>
-      <webElementGuid>e0dd8039-c0b6-4d03-bc8c-75ca39a59fbc</webElementGuid>
+      <webElementGuid>75d0ca14-3c07-4312-b645-2982f004039a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div/div/div[2]/div[2]/div/div/div/p</value>
-      <webElementGuid>e04c141a-6bdb-4440-87fa-7051d72049cd</webElementGuid>
+      <webElementGuid>afd306bc-60e0-4829-8628-280ff430f82b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::p[3]</value>
-      <webElementGuid>0dcf5d03-ae2a-44ad-89fb-45501c189f71</webElementGuid>
+      <webElementGuid>cabcf97e-fe6f-41f1-a831-9858f95f8866</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::p[3]</value>
-      <webElementGuid>b093c22d-eb81-4fb8-96af-ac9752e7c074</webElementGuid>
+      <webElementGuid>be2eb652-98bf-46b9-b706-837a57290a31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Invalid credentials']/parent::*</value>
-      <webElementGuid>6fbbc722-b795-4a43-a457-8c2509e62ae4</webElementGuid>
+      <webElementGuid>93540db2-311f-48b6-9fbf-bfc978c83a85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>c40fb95d-4192-409f-b4b1-902e8e28853c</webElementGuid>
+      <webElementGuid>d3f6d6dc-aa7b-42e8-a9af-e8aa22b67634</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Invalid credentials' or . = 'Invalid credentials')]</value>
-      <webElementGuid>281d5d9a-030a-4e2a-aac7-7461191324c7</webElementGuid>
+      <webElementGuid>b7d77af0-3bee-40a2-a046-ee37eaffcbe2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

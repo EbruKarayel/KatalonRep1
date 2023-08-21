@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify the Login of Site,Edge Chromium 115,,,2023-08-21 18:11:24,2023-08-21 18:14:29,"3m - 5,439s",FAILED
+,,,,,,,
+Test Cases/Verify the Login of Site-N1,Edge Chromium 115,,login,2023-08-21 18:12:00,2023-08-21 18:12:13,"13,227s",FAILED
+"openBrowser("""")",Edge Chromium 115,,,2023-08-21 18:12:00,2023-08-21 18:12:03,"3,588s",PASSED
+navigateToUrl(urlLoginPage),Edge Chromium 115,,,2023-08-21 18:12:03,2023-08-21 18:12:09,"5,734s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Username""), 5)",Edge Chromium 115,,,2023-08-21 18:12:09,2023-08-21 18:12:10,"1,031s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Username""))",Edge Chromium 115,,,2023-08-21 18:12:10,2023-08-21 18:12:10,"0,378s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Password""), 5)",Edge Chromium 115,,,2023-08-21 18:12:10,2023-08-21 18:12:11,"0,352s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Password""))",Edge Chromium 115,,,2023-08-21 18:12:11,2023-08-21 18:12:11,"0,360s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/btn_Login""), 5)",Edge Chromium 115,,,2023-08-21 18:12:11,2023-08-21 18:12:12,"0,539s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/btn_Login""))",Edge Chromium 115,,,2023-08-21 18:12:12,2023-08-21 18:12:12,"0,539s",PASSED
+"verifyElementClickable(findTestObject(""Page_OrangeHRM/btn_Login""))",Edge Chromium 115,,,2023-08-21 18:12:12,2023-08-21 18:12:13,"0,449s",PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/inp_Username""), username_valid)",Edge Chromium 115,"invalid senario 1: valid username, invalid password.",,2023-08-21 18:12:13,2023-08-21 18:12:13,"0,233s",FAILED
+,,,,,,,
+Test Cases/Verify the Login of Site-N2,Edge Chromium 115,,login,2023-08-21 18:12:56,2023-08-21 18:13:06,"9,983s",FAILED
+"openBrowser("""")",Edge Chromium 115,,,2023-08-21 18:12:56,2023-08-21 18:12:59,"3,004s",PASSED
+navigateToUrl(urlLoginPage),Edge Chromium 115,,,2023-08-21 18:12:59,2023-08-21 18:13:03,"3,649s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Username""), 5)",Edge Chromium 115,,,2023-08-21 18:13:03,2023-08-21 18:13:04,"0,924s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Username""))",Edge Chromium 115,,,2023-08-21 18:13:04,2023-08-21 18:13:04,"0,352s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Password""), 5)",Edge Chromium 115,,,2023-08-21 18:13:04,2023-08-21 18:13:04,"0,322s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Password""))",Edge Chromium 115,,,2023-08-21 18:13:04,2023-08-21 18:13:05,"0,358s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/btn_Login""), 5)",Edge Chromium 115,,,2023-08-21 18:13:05,2023-08-21 18:13:05,"0,363s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/btn_Login""))",Edge Chromium 115,,,2023-08-21 18:13:05,2023-08-21 18:13:05,"0,436s",PASSED
+"verifyElementClickable(findTestObject(""Page_OrangeHRM/btn_Login""))",Edge Chromium 115,,,2023-08-21 18:13:05,2023-08-21 18:13:06,"0,361s",PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/inp_Username""), username_invalid)",Edge Chromium 115,"invalid senario 2: invalid username, valid password.",,2023-08-21 18:13:06,2023-08-21 18:13:06,"0,205s",FAILED
+,,,,,,,
+Test Cases/Verify the Login of Site-N3,Edge Chromium 115,,login,2023-08-21 18:13:40,2023-08-21 18:13:50,"9,718s",FAILED
+"openBrowser("""")",Edge Chromium 115,,,2023-08-21 18:13:40,2023-08-21 18:13:43,"2,749s",PASSED
+navigateToUrl(urlLoginPage),Edge Chromium 115,,,2023-08-21 18:13:43,2023-08-21 18:13:46,"3,763s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Username""), 5)",Edge Chromium 115,,,2023-08-21 18:13:46,2023-08-21 18:13:47,"0,960s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Username""))",Edge Chromium 115,,,2023-08-21 18:13:47,2023-08-21 18:13:48,"0,403s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Password""), 5)",Edge Chromium 115,,,2023-08-21 18:13:48,2023-08-21 18:13:48,"0,318s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Password""))",Edge Chromium 115,,,2023-08-21 18:13:48,2023-08-21 18:13:48,"0,328s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/btn_Login""), 5)",Edge Chromium 115,,,2023-08-21 18:13:48,2023-08-21 18:13:49,"0,338s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/btn_Login""))",Edge Chromium 115,,,2023-08-21 18:13:49,2023-08-21 18:13:49,"0,352s",PASSED
+"verifyElementClickable(findTestObject(""Page_OrangeHRM/btn_Login""))",Edge Chromium 115,,,2023-08-21 18:13:49,2023-08-21 18:13:49,"0,344s",PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/inp_Username""), username_invalid)",Edge Chromium 115,"invalid senario 3: invalid username, invalid password.",,2023-08-21 18:13:49,2023-08-21 18:13:50,"0,158s",FAILED
+,,,,,,,
+Test Cases/Verify the Login of Site-P,Edge Chromium 115,,login,2023-08-21 18:14:19,2023-08-21 18:14:29,"10,829s",FAILED
+"openBrowser("""")",Edge Chromium 115,,,2023-08-21 18:14:19,2023-08-21 18:14:21,"2,700s",PASSED
+navigateToUrl(urlLoginPage),Edge Chromium 115,,,2023-08-21 18:14:21,2023-08-21 18:14:26,"4,890s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Username""), 5)",Edge Chromium 115,,,2023-08-21 18:14:26,2023-08-21 18:14:27,"0,981s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Username""))",Edge Chromium 115,,,2023-08-21 18:14:27,2023-08-21 18:14:28,"0,378s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Password""), 5)",Edge Chromium 115,,,2023-08-21 18:14:28,2023-08-21 18:14:28,"0,339s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Password""))",Edge Chromium 115,,,2023-08-21 18:14:28,2023-08-21 18:14:28,"0,326s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/btn_Login""), 5)",Edge Chromium 115,,,2023-08-21 18:14:28,2023-08-21 18:14:29,"0,326s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/btn_Login""))",Edge Chromium 115,,,2023-08-21 18:14:29,2023-08-21 18:14:29,"0,350s",PASSED
+"verifyElementClickable(findTestObject(""Page_OrangeHRM/btn_Login""))",Edge Chromium 115,,,2023-08-21 18:14:29,2023-08-21 18:14:29,"0,360s",PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/inp_Username""), username_valid)",Edge Chromium 115,valid senario,,2023-08-21 18:14:29,2023-08-21 18:14:29,"0,172s",FAILED

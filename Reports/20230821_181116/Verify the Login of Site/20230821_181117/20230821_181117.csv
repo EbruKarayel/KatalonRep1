@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify the Login of Site,Chrome 115.0.0.0,,,2023-08-21 18:11:24,2023-08-21 18:12:55,"1m - 30,689s",PASSED
+,,,,,,,
+Test Cases/Verify the Login of Site-N1,Chrome 115.0.0.0,,login,2023-08-21 18:11:24,2023-08-21 18:11:45,"20,737s",PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-21 18:11:25,2023-08-21 18:11:30,"4,943s",PASSED
+navigateToUrl(urlLoginPage),Chrome 115.0.0.0,,,2023-08-21 18:11:30,2023-08-21 18:11:36,"6,681s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Username""), 5)",Chrome 115.0.0.0,,,2023-08-21 18:11:36,2023-08-21 18:11:38,"1,090s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Username""))",Chrome 115.0.0.0,,,2023-08-21 18:11:38,2023-08-21 18:11:38,"0,432s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Password""), 5)",Chrome 115.0.0.0,,,2023-08-21 18:11:38,2023-08-21 18:11:39,"0,592s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Password""))",Chrome 115.0.0.0,,,2023-08-21 18:11:39,2023-08-21 18:11:39,"0,383s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/btn_Login""), 5)",Chrome 115.0.0.0,,,2023-08-21 18:11:39,2023-08-21 18:11:39,"0,345s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/btn_Login""))",Chrome 115.0.0.0,,,2023-08-21 18:11:39,2023-08-21 18:11:40,"0,414s",PASSED
+"verifyElementClickable(findTestObject(""Page_OrangeHRM/btn_Login""))",Chrome 115.0.0.0,,,2023-08-21 18:11:40,2023-08-21 18:11:40,"0,432s",PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/inp_Username""), username_valid)",Chrome 115.0.0.0,"invalid senario 1: valid username, invalid password.",,2023-08-21 18:11:40,2023-08-21 18:11:41,"1,191s",PASSED
+"setText(findTestObject(""Page_OrangeHRM/inp_Password""), password_invalid)",Chrome 115.0.0.0,,,2023-08-21 18:11:41,2023-08-21 18:11:42,"0,869s",PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/btn_Login""))",Chrome 115.0.0.0,,,2023-08-21 18:11:42,2023-08-21 18:11:43,"1,240s",PASSED
+try,Chrome 115.0.0.0,,,2023-08-21 18:11:43,2023-08-21 18:11:44,"0,706s",PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-21 18:11:44,2023-08-21 18:11:45,"0,943s",PASSED
+,,,,,,,
+Test Cases/Verify the Login of Site-N2,Chrome 115.0.0.0,,login,2023-08-21 18:11:45,2023-08-21 18:11:58,"12,999s",PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-21 18:11:45,2023-08-21 18:11:48,"2,953s",PASSED
+navigateToUrl(urlLoginPage),Chrome 115.0.0.0,,,2023-08-21 18:11:48,2023-08-21 18:11:51,"2,602s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Username""), 5)",Chrome 115.0.0.0,,,2023-08-21 18:11:51,2023-08-21 18:11:52,"0,991s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Username""))",Chrome 115.0.0.0,,,2023-08-21 18:11:52,2023-08-21 18:11:52,"0,427s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Password""), 5)",Chrome 115.0.0.0,,,2023-08-21 18:11:52,2023-08-21 18:11:53,"0,353s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Password""))",Chrome 115.0.0.0,,,2023-08-21 18:11:53,2023-08-21 18:11:53,"0,387s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/btn_Login""), 5)",Chrome 115.0.0.0,,,2023-08-21 18:11:53,2023-08-21 18:11:53,"0,402s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/btn_Login""))",Chrome 115.0.0.0,,,2023-08-21 18:11:53,2023-08-21 18:11:54,"0,340s",PASSED
+"verifyElementClickable(findTestObject(""Page_OrangeHRM/btn_Login""))",Chrome 115.0.0.0,,,2023-08-21 18:11:54,2023-08-21 18:11:54,"0,340s",PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/inp_Username""), username_invalid)",Chrome 115.0.0.0,"invalid senario 2: invalid username, valid password.",,2023-08-21 18:11:54,2023-08-21 18:11:55,"0,661s",PASSED
+"setText(findTestObject(""Page_OrangeHRM/inp_Password""), password_valid)",Chrome 115.0.0.0,,,2023-08-21 18:11:55,2023-08-21 18:11:56,"0,714s",PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/btn_Login""))",Chrome 115.0.0.0,,,2023-08-21 18:11:56,2023-08-21 18:11:56,"0,405s",PASSED
+try,Chrome 115.0.0.0,,,2023-08-21 18:11:56,2023-08-21 18:11:57,"1,311s",PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-21 18:11:57,2023-08-21 18:11:58,"0,929s",PASSED
+,,,,,,,
+Test Cases/Verify the Login of Site-N3,Chrome 115.0.0.0,,login,2023-08-21 18:11:58,2023-08-21 18:12:12,"13,675s",PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-21 18:11:58,2023-08-21 18:12:01,"2,305s",PASSED
+navigateToUrl(urlLoginPage),Chrome 115.0.0.0,,,2023-08-21 18:12:01,2023-08-21 18:12:04,"3,803s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Username""), 5)",Chrome 115.0.0.0,,,2023-08-21 18:12:04,2023-08-21 18:12:05,"1,034s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Username""))",Chrome 115.0.0.0,,,2023-08-21 18:12:05,2023-08-21 18:12:06,"0,363s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Password""), 5)",Chrome 115.0.0.0,,,2023-08-21 18:12:06,2023-08-21 18:12:06,"0,351s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Password""))",Chrome 115.0.0.0,,,2023-08-21 18:12:06,2023-08-21 18:12:07,"0,377s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/btn_Login""), 5)",Chrome 115.0.0.0,,,2023-08-21 18:12:07,2023-08-21 18:12:07,"0,366s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/btn_Login""))",Chrome 115.0.0.0,,,2023-08-21 18:12:07,2023-08-21 18:12:07,"0,345s",PASSED
+"verifyElementClickable(findTestObject(""Page_OrangeHRM/btn_Login""))",Chrome 115.0.0.0,,,2023-08-21 18:12:07,2023-08-21 18:12:08,"0,344s",PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/inp_Username""), username_invalid)",Chrome 115.0.0.0,"invalid senario 3: invalid username, invalid password.",,2023-08-21 18:12:08,2023-08-21 18:12:08,"0,692s",PASSED
+"setText(findTestObject(""Page_OrangeHRM/inp_Password""), password_invalid)",Chrome 115.0.0.0,,,2023-08-21 18:12:08,2023-08-21 18:12:09,"0,762s",PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/btn_Login""))",Chrome 115.0.0.0,,,2023-08-21 18:12:09,2023-08-21 18:12:10,"0,478s",PASSED
+try,Chrome 115.0.0.0,,,2023-08-21 18:12:10,2023-08-21 18:12:11,"1,376s",PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-21 18:12:11,2023-08-21 18:12:12,"0,899s",PASSED
+,,,,,,,
+Test Cases/Verify the Login of Site-P,Chrome 115.0.0.0,,login,2023-08-21 18:12:12,2023-08-21 18:12:55,"42,767s",PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-21 18:12:12,2023-08-21 18:12:14,"2,037s",PASSED
+navigateToUrl(urlLoginPage),Chrome 115.0.0.0,,,2023-08-21 18:12:14,2023-08-21 18:12:17,"3,128s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Username""), 5)",Chrome 115.0.0.0,,,2023-08-21 18:12:17,2023-08-21 18:12:18,"0,912s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Username""))",Chrome 115.0.0.0,,,2023-08-21 18:12:18,2023-08-21 18:12:19,"0,381s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/inp_Password""), 5)",Chrome 115.0.0.0,,,2023-08-21 18:12:19,2023-08-21 18:12:19,"0,363s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/inp_Password""))",Chrome 115.0.0.0,,,2023-08-21 18:12:19,2023-08-21 18:12:19,"0,377s",PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/btn_Login""), 5)",Chrome 115.0.0.0,,,2023-08-21 18:12:19,2023-08-21 18:12:20,"0,326s",PASSED
+"verifyElementVisible(findTestObject(""Page_OrangeHRM/btn_Login""))",Chrome 115.0.0.0,,,2023-08-21 18:12:20,2023-08-21 18:12:20,"0,362s",PASSED
+"verifyElementClickable(findTestObject(""Page_OrangeHRM/btn_Login""))",Chrome 115.0.0.0,,,2023-08-21 18:12:20,2023-08-21 18:12:21,"0,373s",PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/inp_Username""), username_valid)",Chrome 115.0.0.0,valid senario,,2023-08-21 18:12:21,2023-08-21 18:12:21,"0,694s",PASSED
+"setEncryptedText(findTestObject(""Page_OrangeHRM/inp_Password""), password_valid)",Chrome 115.0.0.0,,,2023-08-21 18:12:21,2023-08-21 18:12:22,"0,544s",PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/btn_Login""))",Chrome 115.0.0.0,,,2023-08-21 18:12:22,2023-08-21 18:12:22,"0,474s",PASSED
+try,Chrome 115.0.0.0,,,2023-08-21 18:12:22,2023-08-21 18:12:54,"31,538s",PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-21 18:12:54,2023-08-21 18:12:55,"0,812s",PASSED

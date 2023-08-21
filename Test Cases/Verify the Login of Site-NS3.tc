@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Verify the Login of Site-NS3</name>
-   <tag>login</tag>
-   <comment></comment>
-   <testCaseGuid>0dc6b6d1-f9a2-4064-be2a-479deec56478</testCaseGuid>
-</TestCaseEntity>
