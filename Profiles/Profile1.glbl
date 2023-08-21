@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'admin'</initValue>
+      <initValue>'admin123456'</initValue>
       <name>username_invalid</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
